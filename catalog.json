@@ -28,9 +28,12 @@
     { "id": "prod-4df51104-022", "name": "Standard Item 22", "category": "electronics", "price": 59.63, "stock": 27, "rating": 3.1 }
   ],
   "aggregations": {
-    "home": {
-      "count": 3,
-      "inventoryValue": 82909.59
-    }
+  "home": {
+    "count": 3,
+    "inventoryValue": 82909.59
+  },
+  "electronics": {
+    "count": 6,
+    "inventoryValue": 205547.78
   }
 }
